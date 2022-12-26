@@ -1,0 +1,48 @@
+Project title: Worddle -- clone of WORDLE word guess game
+Instructions: 1. Guess the correct word
+              2. Maximum attempt for a word = 6
+              3. Number of letters in each word = 5
+              4. Repeated words can not be entered
+              5. Press enter after each guess to see if your guess is correct or not
+              6. Refresh the window to play another round
+Color coding: When a word is guessed, the colors of the letters in the guessed word
+              in both Grid and Keypad changes based on their accuracy--
+              a. Green: if the letter guessed is at the exact correct position
+              b. Yellow: if the letter is present in the actual solution word but
+                 not at the same position where it is guessed
+              c. Grey: if the letter is not present in the actual solution at all
+Result:       a. Win: If all the letters guessed in a word turns green
+              b. Lose: If the chances are over before you win
+*****************************************************************************
+Project phase: Frontend only
+Tools used: Html, Css, Javascript, React.JS, JSON-Server
+Data: 1. Present in "data/db.json"
+      2. Two types of data is used from outside--
+         a. "solutions": Sample solution words for each round
+         b. "letters": Letters to be reflected on the keypad
+Root file: "public/index.html"
+Styling file: index.Css
+Rendering file: index.js -- Renders the templates from Virtual DOM to Actual DOM
+React components: Present in "src/components" folder--
+                 1. Wordle.js: a. It holds the templates of the game UI and passes it to "App.js"
+                               b. Parents: App.js
+                               c. Children: Grid.js, Keypad.js, Modal.js
+                 2. Grid.js: a. It implements the grid structure where words are to be guessed
+                             b. Parents: Wordle.js
+                             c. Children: Row.js
+                 3. Row.js: a. It implements the block structure (total 5) for each guess
+                            b. Parents: Grid.js
+                            c. Children: None
+                 4. Keypad.js: a. It implements the keypad structure holding 26 alphabets
+                               b. Parents: Wordle.js
+                               c. Children: None
+                 5. Modal.js: a. It implements the modal box which appears on the screen
+                                 to show the result after the game is over
+                              b. Parents: Wordle.js
+                              c. Children: None
+Hooks used: 1. useState, useEffect
+            2. useWordle - Custom hook - location: "src/hooks/useWordle.js"
+                 
+                 
+
+
