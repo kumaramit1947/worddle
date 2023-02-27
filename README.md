@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Wordle Game Clone
 
 ## Available Scripts
@@ -63,6 +62,23 @@ Features:
 Tech used: HTML, CSS, Javascript, React, JSON, WebAPI
 Hooks used: useState, useEffect, useWordle -->(custom hook)
 *****************************************************************
-=======
->>>>>>> 8265ea269885a5e65503c5e0e4478099d47223ca
 
+
+
+
+
+
+![Wordle Clone1](https://user-images.githubusercontent.com/39863626/221696867-95717a06-c217-4ff8-b353-872c89c7201c.png)
+
+
+![Wordle Clone2](https://user-images.githubusercontent.com/39863626/221696923-aab8810f-902c-436a-91f5-f679a2b21c99.png)
+![Wordle Clone3](https://user-images.githubusercontent.com/39863626/221696935-ec371845-6613-458e-a4d0-869bc491fb4d.png)
+
+![Wordle Clone4](https://user-images.githubusercontent.com/39863626/221696967-565086d3-929d-4542-984c-ec10faed0164.png)
+![Wordle Clone5](https://user-images.githubusercontent.com/39863626/221696986-dbe41dd2-56f9-48be-a8da-a6f7082cf601.png)
+
+![Wordle Clone6](https://user-images.githubusercontent.com/39863626/221697008-1caad07b-43e9-4467-9ca2-d6f1db316a1b.png)
+
+
+
+*******************************************************************************
