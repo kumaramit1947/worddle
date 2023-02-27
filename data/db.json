@@ -32,6 +32,12 @@
         {"id": 2, "word": "pools"},
         {"id": 3, "word": "spade"},
         {"id": 4, "word": "drive"},
-        {"id": 5, "word": "words"}
+        {"id": 5, "word": "words"},
+        {"id": 6, "word": "books"},
+        {"id": 7, "word": "great"},
+        {"id": 8, "word": "seven"},
+        {"id": 9, "word": "eight"},
+        {"id": 10, "word": "bless"},
+        {"id": 11, "word": "blade"}
     ]
 }
